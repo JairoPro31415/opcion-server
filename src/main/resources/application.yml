@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: opcion-server
+  profiles:
+    active: test
+  config:
+    import: optional:configserver:http://localhost:10002
